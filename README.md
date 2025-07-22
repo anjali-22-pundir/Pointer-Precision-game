@@ -5,7 +5,7 @@ A fun and interactive web-based game that tests your reflexes and accuracy. Clic
 
 ## 🚀 Live Demo
 
-👉 [Play Now](https://anjali-22-pundir.github.io/pointer-precision-game)  
+👉 [Play Now]https://github.com/anjali-22-pundir/mouse-accuracy-game.git  
 
 
 ## 🕹️ How to Play
@@ -49,11 +49,11 @@ A fun and interactive web-based game that tests your reflexes and accuracy. Clic
 ## 📂 File Structure
 
 📦 pointer-precision-game
-├── game.html # Main game interface
-├── game.css # Styling for UI and components
-├── game.js # JavaScript logic and interactivity
-├── web snapshot1.PNG # Screenshot - difficulty selection
-├── web snapshot2.PNG # Screenshot - gameplay screen
-├── web snapshot3.PNG # Screenshot - leaderboard screen
-└── README.md # Project overview and instructions
+ - game.html # Main game interface
+ - game.css # Styling for UI and components
+ - game.js # JavaScript logic and interactivity
+ - web snapshot1.PNG # Screenshot - difficulty selection
+ - web snapshot2.PNG # Screenshot - gameplay screen
+ - web snapshot3.PNG # Screenshot - leaderboard screen
+ - README.md # Project overview and instructions
 
