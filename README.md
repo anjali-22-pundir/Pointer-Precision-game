@@ -5,8 +5,7 @@ A fun and interactive web-based game that tests your reflexes and accuracy. Clic
 
 ## 🚀 Live Demo
 
-👉 [Play Now](https://yourusername.github.io/pointer-precision-game)  
-*(Replace with your actual GitHub Pages URL)*
+👉 [Play Now](https://anjali-22-pundir.github.io/pointer-precision-game)  
 
 
 ## 🕹️ How to Play
@@ -49,7 +48,7 @@ A fun and interactive web-based game that tests your reflexes and accuracy. Clic
 
 ## 📂 File Structure
 
-📦 pointer-precision-game/
+📦 pointer-precision-game
 ├── game.html # Main game interface
 ├── game.css # Styling for UI and components
 ├── game.js # JavaScript logic and interactivity
