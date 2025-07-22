@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Gilroy";
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(148, 219, 148);
+}
+
+#panel {
+    overflow: hidden;
+    width: 80%;
+    height: 80%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+#ptop {
+    padding: 0px 30%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(6, 216, 6, 0.878);
+}
+
+.elem h2 {
+    font-weight: 500;
+    font-size: 22px;
+}
+
+#pbtm {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 100%;
+    height: calc(100% - 100px);
+    background-color: black;
+}
+
+.bubble {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(158, 13, 169, 0.959);
+    border-radius: 50%;
+    font-weight: 500;
+}
+
+.elem {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.box {
+    color: rgba(4, 190, 4, 0.716);
+    font-weight: 700;
+    font-size: 25px;
+    padding: 20px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.bubble:hover {
+    background-color: rgb(64, 245, 64);
+    cursor: pointer;
+}
+
+#startScreen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
+
+.diff-btn {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: limegreen;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#viewLeaderboardBtn {
+    padding: 10px 20px;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#viewLeaderboardBtn:hover {
+    background-color: navy;
+}
+
+.diff-btn:hover {
+    background-color: darkgreen;
+}
+
+.popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    z-index: 20;
+}
+
+.popup input {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.popup button {
+    padding: 10px 20px;
+    background-color: limegreen;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.popup button:hover {
+    background-color: darkgreen;
+}
+
+.hidden {
+    display: none;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pointer Precision Game.</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+    <div id="startScreen">
+        <h1>Choose Difficulty</h1>
+        <button class="diff-btn" data-diff="easy">Easy</button>
+        <button class="diff-btn" data-diff="medium">Medium</button>
+        <button class="diff-btn" data-diff="hard">Hard</button>
+        <button id="viewLeaderboardBtn">View Leaderboard</button>
+    </div>
+    <div id="main">
+        <div id="panel">
+            <div id="ptop">
+                <div class="elem">
+                    <!-- No. of Hits -->
+                    <h2>Hit</h2>
+                    <div id="hitval" class="box"></div>
+                </div>
+                <div class="elem">
+                    <!-- Time taken -->
+                    <h2>Timer</h2>
+                    <div id="timer" class="box"></div>
+                </div>
+                <div class="elem">
+                    <!-- Obtained score -->
+                    <h2>Score</h2>
+                    <div id="scores" class="box">0</div>
+                </div>
+            </div>
+            <div id="pbtm">
+
+                <!-- <div class="bubble">16</div> -->
+            </div>
+        </div>
+    </div>
+    <div id="namePrompt" class="popup hidden">
+        <h2>Enter Your Name</h2>
+        <input type="text" id="playerName" placeholder="Your name..." />
+        <button id="saveScoreBtn">Save Score</button>
+    </div>
+
+    <div id="leaderboard" class="popup hidden">
+        <h2>Leaderboard</h2>
+        <ul id="scoreList"></ul>
+        <button onclick="location.reload()">Play Again</button>
+    </div>
+    <script src="game.js"></script>
+</body>
+
+</html>
