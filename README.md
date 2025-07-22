@@ -5,7 +5,7 @@ A fun and interactive web-based game that tests your reflexes and accuracy. Clic
 
 ## 🚀 Live Demo
 
-👉 [Play Now]https://github.com/anjali-22-pundir/mouse-accuracy-game.git  
+🔧 The live demo link will be added soon.
 
 
 ## 🕹️ How to Play
